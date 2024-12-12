@@ -36,7 +36,6 @@ jobs:
 
       - name: Setup Laravel
         run: |
-          touch database/database.sqlite
           cp .env.example .env
           composer install --no-interaction --optimize-autoloader --quiet
           php artisan key:gen
