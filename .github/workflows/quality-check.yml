@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Clone Repository
-        run: cd /var/www && rm -rf html && git clone https://github.com/ramaID/playground-11.git html && cd html && git checkout test/by-rama && ls
+        run: cd /var/www && rm -rf html && git clone https://github.com/ramaID/demo-hari-3-sesi-2.git html && cd html && git checkout test/by-rama && ls
 
       - name: Verify Clone
         run: |
